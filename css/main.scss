@@ -1,0 +1,100 @@
+.store {
+    & .cookies {
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+
+        & .title {
+            border-radius: 10px;
+            margin-top: 10px;
+            background-color: aquamarine;
+            padding: 10px;
+            width: 125%;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        & li {
+            border: 3px solid rgb(117, 117, 117);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(224, 224, 224);
+            list-style-type: none;
+            width: fit-content;
+            padding: 40px;
+            margin: 0 30px;
+
+            & .cookie {
+                width: 150px;
+                transition: all 1s;
+            }
+
+            & .cookie:hover {
+                rotate: 5deg;
+                scale: 1.05;
+            }
+        }
+
+        & .buttons {
+            display: flex;
+            flex-direction: row;
+
+            & img {
+                margin: 0 10px;
+                width: 30px;
+                object-fit: contain;
+                transition: all 1s;
+            }
+
+            & img:hover {
+                scale: 1.25;
+            }
+
+            & i {
+                height: fit-content;
+                margin: auto;
+                padding: 10px;
+                transition: all 1s;
+            }
+
+            & i:hover {
+                scale: 1.25;
+                color: rgb(68, 68, 68);
+            }
+
+            & i::before {
+                display: block;
+                justify-content: center;
+            }
+
+        }
+
+        & button {
+            background-color: red;
+            display: none;
+            flex-direction: row;
+            padding: 10px;
+            border-radius: 7px;
+
+            & p {
+                margin: 0;
+            }
+
+            & i {
+                height: fit-content;
+                margin: auto;
+                padding: 10px;
+                transition: all 1s;
+            }
+
+            & i::before {
+                display: block;
+                justify-content: center;
+            }
+        }
+    }
+}

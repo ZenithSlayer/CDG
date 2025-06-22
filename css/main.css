@@ -1,0 +1,85 @@
+.store .cookies {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.store .cookies .title {
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+  width: 125%;
+  text-align: center;
+  font-weight: bolder;
+}
+.store .cookies li {
+  border: 3px solid #757575;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  list-style-type: none;
+  width: fit-content;
+  padding: 40px;
+  margin: 0 30px;
+}
+.store .cookies li .cookie {
+  width: 150px;
+  transition: all 1s;
+}
+.store .cookies li .cookie:hover {
+  rotate: 5deg;
+  scale: 1.05;
+}
+.store .cookies .buttons {
+  display: flex;
+  flex-direction: row;
+}
+.store .cookies .buttons img {
+  margin: 0 10px;
+  width: 30px;
+  object-fit: contain;
+  transition: all 1s;
+}
+.store .cookies .buttons img:hover {
+  scale: 1.25;
+}
+.store .cookies .buttons i {
+  height: fit-content;
+  margin: auto;
+  padding: 10px;
+  transition: all 1s;
+}
+.store .cookies .buttons i:hover {
+  scale: 1.25;
+  color: #444444;
+}
+.store .cookies .buttons i::before {
+  display: block;
+  justify-content: center;
+}
+.store .cookies button {
+  background-color: red;
+  display: none;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 7px;
+}
+.store .cookies button p {
+  margin: 0;
+}
+.store .cookies button i {
+  height: fit-content;
+  margin: auto;
+  padding: 10px;
+  transition: all 1s;
+}
+.store .cookies button i::before {
+  display: block;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
