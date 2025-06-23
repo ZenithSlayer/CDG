@@ -1,38 +1,67 @@
-.store .cookies {
-  width: fit-content;
-  margin: auto;
+.store {
+  margin: 20px 0;
+}
+.store .bv {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+.store .bv span {
+  font-size: x-large;
+}
+.store .bv::before, .store .bv::after {
+  content: "";
+  flex: 1;
+  height: 3px;
+  background-color: black;
+}
+.store video {
+  margin: 40px auto;
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+.store .cookies {
+  width: 85vw;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 .store .cookies .title {
-  border-radius: 10px;
   margin-top: 10px;
-  background-color: aquamarine;
+  background-color: #dfdfdf;
   padding: 10px;
-  width: 125%;
+  width: 100%;
   text-align: center;
   font-weight: bolder;
 }
 .store .cookies li {
+  margin: 40px auto;
+  padding: 40px;
+  height: fit-content;
+  width: 80%;
   border: 3px solid #757575;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #e0e0e0;
+  background-color: #cccccc;
   list-style-type: none;
-  width: fit-content;
-  padding: 40px;
-  margin: 0 30px;
 }
-.store .cookies li .cookie {
+.store .cookies li .cookietext .cookie {
   width: 150px;
   transition: all 1s;
 }
-.store .cookies li .cookie:hover {
+.store .cookies li .cookietext .cookie:hover {
   rotate: 5deg;
   scale: 1.05;
+}
+.store .cookies li .text {
+  padding: 20px;
 }
 .store .cookies .buttons {
   display: flex;
@@ -61,25 +90,28 @@
   display: block;
   justify-content: center;
 }
-.store .cookies button {
-  background-color: red;
-  display: none;
-  flex-direction: row;
-  padding: 10px;
-  border-radius: 7px;
-}
-.store .cookies button p {
-  margin: 0;
-}
-.store .cookies button i {
-  height: fit-content;
+.store .rest {
+  background-color: aqua;
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
   margin: auto;
-  padding: 10px;
-  transition: all 1s;
+  align-items: center;
+  border-radius: 20px;
 }
-.store .cookies button i::before {
-  display: block;
-  justify-content: center;
+.store .rest button {
+  border: none;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+}
+.store .rest p {
+  font-size: large;
 }
 
 /*# sourceMappingURL=main.css.map */
