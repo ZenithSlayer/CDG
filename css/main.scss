@@ -5,33 +5,33 @@ body {
 .store {
     margin: 20px 0;
 
-    & .bv {
+    .bv {
         align-items: center;
         display: flex;
         gap: 1rem;
         text-align: center;
 
-        & span {
+        span {
             font-size: x-large;
         }
     }
 
-    & .bv::before,
-    & .bv::after {
+    .bv::before,
+    .bv::after {
         background-color: black;
         content: "";
         flex: 1;
         height: 3px;
     }
 
-    & video {
+    video {
         height: 30vw;
         margin: 40px auto;
         object-fit: cover;
         width: 100%;
     }
 
-    & .cookies {
+    .cookies {
         margin: auto;
         margin-top: 100px;
         padding: 20px;
@@ -41,7 +41,7 @@ body {
         gap: 1rem;
         justify-content: center;
 
-        & .title {
+        .title {
             background-color: rgb(223, 223, 223);
             font-weight: bolder;
             margin-top: 10px;
@@ -50,7 +50,7 @@ body {
             width: 100%;
         }
 
-        & li {
+        li {
             align-items: center;
             justify-content: center;
             background-color: rgb(204, 204, 204);
@@ -63,58 +63,58 @@ body {
             max-width: 500px;
             padding: 40px;
 
-            & .text {
+            .text {
                 padding: 20px;
             }
 
-            & .cookietext {
-                & .cookie {
+            .cookietext {
+                .cookie {
                     transition: all 1s;
                     width: 150px;
                 }
 
-                & .cookie:hover {
+                .cookie:hover {
                     rotate: 5deg;
                     scale: 1.05;
                 }
             }
         }
 
-        & .buttons {
+        .buttons {
             display: flex;
             flex-direction: row;
 
-            & img {
+            img {
                 margin: 0 10px;
                 object-fit: contain;
                 transition: all 1s;
                 width: 30px;
             }
 
-            & img:hover {
+            img:hover {
                 scale: 1.25;
             }
 
-            & i {
+            i {
                 height: fit-content;
                 margin: auto;
                 padding: 10px;
                 transition: all 1s;
             }
 
-            & i:hover {
+            i:hover {
                 color: rgb(68, 68, 68);
                 scale: 1.25;
             }
 
-            & i::before {
+            i::before {
                 display: block;
                 justify-content: center;
             }
         }
     }
 
-    & .rest {
+    .rest {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -122,7 +122,7 @@ body {
         padding: 20px;
         width: fit-content;
 
-        & button {
+        button {
             background-color: red;
             border: 1px black solid;
             border-radius: 100%;
@@ -132,18 +132,18 @@ body {
             transition: all 1s;
             width: 50px;
 
-            &:hover {
+            hover {
                 background-color: rgb(230, 0, 0);
                 scale: 1.25;
             }
         }
 
-        & p {
+        p {
             font-size: large;
         }
     }
 
-    & .comp {
+    .comp {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -151,7 +151,7 @@ body {
         padding: 20px;
         width: fit-content;
 
-        & button {
+        button {
             background-color: rgb(0, 173, 0);
             border: 1px black solid;
             border-radius: 10px;
@@ -161,13 +161,13 @@ body {
             transition: all 1s;
             width: 100px;
 
-            &:hover {
+            hover {
                 background-color: rgb(0, 134, 0);
                 scale: 1.25;
             }
         }
 
-        & p {
+        p {
             font-size: large;
         }
     }
@@ -180,12 +180,27 @@ body {
     justify-content: center;
     width: fit-content;
     margin: auto;
-    & h1, p {
-        text-align: center;        
+    h1,
+    p {
+        text-align: center;
     }
-    & img {
+    img {
         height: 200px;
         object-fit: contain;
+    }
+}
+
+.galeria {
+    height: fit-content;
+    p {
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+    .linkpro {
+        margin: auto;
+        font-size: 49px;
     }
 }
 

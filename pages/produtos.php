@@ -51,7 +51,7 @@
     </div>
     <div class="buy" data-aos="fade-up" ata-aos-anchor-placement="top-bottom" style="opacity: 0;">
         <div class="comp">
-            <button onclick="venda()"><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="venda()"><i class="fas fa-handshake" style="font-size: xx-large;"></i></button>
             <p>finalizar o pedido</p>
         </div>
         <div class="rest">

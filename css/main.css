@@ -14,7 +14,8 @@ body {
 .store .bv span {
   font-size: x-large;
 }
-.store .bv::before, .store .bv::after {
+.store .bv::before,
+.store .bv::after {
   background-color: black;
   content: "";
   flex: 1;
@@ -113,7 +114,7 @@ body {
   transition: all 1s;
   width: 50px;
 }
-.store .rest button:hover {
+.store .rest button hover {
   background-color: #e60000;
   scale: 1.25;
 }
@@ -138,7 +139,7 @@ body {
   transition: all 1s;
   width: 100px;
 }
-.store .comp button:hover {
+.store .comp button hover {
   background-color: #008600;
   scale: 1.25;
 }
@@ -154,12 +155,27 @@ body {
   width: fit-content;
   margin: auto;
 }
-.page404 h1, .page404 p {
+.page404 h1,
+.page404 p {
   text-align: center;
 }
 .page404 img {
   height: 200px;
   object-fit: contain;
+}
+
+.galeria {
+  height: fit-content;
+}
+.galeria p {
+  margin: 0;
+}
+.galeria a {
+  text-decoration: none;
+}
+.galeria .linkpro {
+  text-align: center;
+  font-size: 39px;
 }
 
 @media screen and (max-width: 800px) {

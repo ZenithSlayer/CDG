@@ -40,6 +40,7 @@
             'home' => 'pages/home.php',
             'produtos' => 'pages/produtos.php',
             'galeria' => 'pages/galeria.php',
+            'contato' => 'pages/contato.php',
         ];
 
         $page = $_GET['page'] ?? 'home';
