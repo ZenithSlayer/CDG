@@ -1,5 +1,5 @@
 <div class="store">
-    <video src="imagens/videos/video1.mp4" autoplay loop></video>
+    <img class="banner" src="imagens\cookies\cookiesbg2.jpg" alt="">
 
     <div class="bv" data-aos="flip-up" data-aos-duration="1000">
         <span>Bem vindo a nossa loja</span>

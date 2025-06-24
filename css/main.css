@@ -21,7 +21,7 @@ body {
   flex: 1;
   height: 3px;
 }
-.store video {
+.store .banner {
   height: 30vw;
   margin: 40px auto;
   object-fit: cover;
