@@ -1,10 +1,12 @@
-<form action="https://script.google.com/macros/s/AKfycbwK5xzdCQqwEuCjNGlKzgoJG7E-Z4trIKDPcQV6ec4B7MQBjesaaCbqjOP8hnf03k_r1g/exec" method="post" name="formContato">
-    <input type="text" name="nome" placeholder="Nome*" required>
-    <input type="number" name="numero" placeholder="Telefone">
-    <input type="email" name="email" placeholder="Email*" required>
-    <textarea name="messagem" rows="7" placeholder="Sua mensagem*" required></textarea>
-    <input type="submit" value="Enviar a mensagem" id="submit">
-</form>
+<div class="formbor">
+    <form action="https://script.google.com/macros/s/AKfycbwK5xzdCQqwEuCjNGlKzgoJG7E-Z4trIKDPcQV6ec4B7MQBjesaaCbqjOP8hnf03k_r1g/exec" method="post" name="formContato">
+        <input type="text" name="nome" placeholder="Nome*" required>
+        <input type="number" name="numero" placeholder="Telefone">
+        <input type="email" name="email" placeholder="Email*" required>
+        <textarea name="messagem" rows="7" placeholder="Sua mensagem*" required></textarea>
+        <input type="submit" value="Enviar a mensagem" id="submit">
+    </form>
+</div>
 
 <script>
     document.querySelectorAll('a.NavLink').forEach(anchor => {

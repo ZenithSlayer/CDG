@@ -24,7 +24,6 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
                     <li class="nav-item"> <a class="nav-link" href="home">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="produtos">Produtos</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="Quem-somos">Quem Somos</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="galeria">Galeria</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="contato">Contato</a> </li>
                     </li>
@@ -54,6 +53,11 @@
 
     </main>
 
+    <div class="contbutton" data-aos="fade-left">
+        <a href="https://wa.me/44984146362">
+            <img src="imagens\phone-solid.svg" alt="">
+        </a>
+    </div>
 
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div class="container">
