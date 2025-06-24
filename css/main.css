@@ -312,6 +312,14 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .contbutton {
+    padding: 20px;
+    right: 30px;
+  }
+  .contbutton img {
+    height: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

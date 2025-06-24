@@ -9,6 +9,7 @@
     <base href="https://localhost/websites/CDG/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="imagens\logos\favicon.ico">
     <title>Cookie Do Gato</title>
 </head>
 
